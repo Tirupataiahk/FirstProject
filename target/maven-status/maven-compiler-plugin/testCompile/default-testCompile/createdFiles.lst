@@ -1,0 +1,8 @@
+pages\LoginPage.class
+dataProvider\ExcelDataProvider.class
+dataProvider\ConfigDataProvider.class
+factory\BrowserFactory.class
+factory\DataProviderFactory.class
+testcases\VerifyHome_Report.class
+testcases\VerifyHome.class
+utility\HelperClass.class

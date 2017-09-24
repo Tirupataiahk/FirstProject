@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SmokeSuite]">
+  <test name="SmokeScenario(failed)">
+    <classes>
+      <class name="testcases.VerifyHome">
+        <methods>
+          <include name="setUP"/>
+          <include name="testLoginPage"/>
+        </methods>
+      </class> <!-- testcases.VerifyHome -->
+      <class name="testcases.TestCase">
+        <methods>
+          <include name="verifyLogin"/>
+        </methods>
+      </class> <!-- testcases.TestCase -->
+    </classes>
+  </test> <!-- SmokeScenario(failed) -->
+</suite> <!-- Failed suite [SmokeSuite] -->
